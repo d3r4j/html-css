@@ -1,1 +1,134 @@
+.logo {}
 
+.logo img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background: rgb(35, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 40px;
+}
+
+.right ul li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.right ul li img {
+    background-color: black;
+    width: 25px;
+}
+
+.right ul li span {
+    padding: 5px 9px;
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(35, 34, 34);
+    height: 40vh;
+    color: white;
+}
+
+.sex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.bb {
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.b1 {
+    color: white;
+    background-color: rgb(46, 238, 238);
+    font-weight: bolder;
+}
+
+.b1:hover {
+    background-color: rgb(16, 142, 142);
+}
+
+.b2 {
+    color: white;
+    background-color: rgb(35, 34, 34);
+    font-weight: bolder;
+}
+
+.b2:hover {
+    background-color: black;
+}
+.blue:hover{
+    background-color: rgb(241, 169, 88);
+}
+.green:hover{
+    background-color: rgb(207, 165, 246);
+}
+
+.btn {
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(46, 238, 238);
+    font-weight: bolder;
+}
+
+.green {
+    background-color: aquamarine;
+
+}
+
+.sec2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end
+}
+
+.small {
+    font-size: 15px;
+}
+
+.class2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 15px;
+}
+.item-lang{ 
+    padding: 15px;
+    width: 277px;
+    background-color: rgb(250, 246, 241);
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
